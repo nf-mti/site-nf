@@ -11,10 +11,10 @@ export default function Banner() {
             </div>
             <div className="flex flex-col sm:flex-row sm:gap-20 gap-5 md:text-base text-sm">
                <a href="" target="_blank">
-                  <button className="bg-nf1-destaque md:px-4 px-2 md:py-2 py-1 text-nf1-branco rounded-full">Horário dos cultos</button>
+                  <button className="bg-nf1-fundohead md:px-4 px-2 md:py-2 py-1 text-nf1-branco rounded-full">Horário dos cultos</button>
                </a>
                <a href="https://www.youtube.com/@nucleodafelive/streams" target="_blank">
-                  <button className="bg-nf1-destaque md:px-4 px-2 md:py-2 py-1 text-nf1-branco rounded-full">Assista nossos cultos ao vivo</button>
+                  <button className="bg-nf1-fundohead md:px-4 px-2 md:py-2 py-1 text-nf1-branco rounded-full">Assista nossos cultos ao vivo</button>
                </a>
             </div>
          </div>
