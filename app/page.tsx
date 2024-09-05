@@ -3,7 +3,7 @@ import SlideCard from "@/components/SlideCard";
 import Pastores from "@/components/Pastores";
 import Footer from "@/components/footer";
 import Header from "@components/Header";
-
+import Banner from "@components/Banner";
 
 export default function Home() {
   const campus = [
@@ -83,7 +83,10 @@ export default function Home() {
       <section className="bg-nf1-fundo w-full ">
         <Header />
       </section>
-      <section className="w-full px-4 py-2  bg-nf1-fundo text-nf1-branco">banner</section>
+      <section className="w-full px-4 bg-nf1-fundo text-nf1-branco">
+        <Banner />
+      </section>
+
 
       <section id="visita" className="w-full px-4 py-2  bg-nf1-fundo text-nf1-branco">
         <h1 className="font-bold font-title text-3xl sm:pl-16 pl-5">Nos faça uma visita</h1>
