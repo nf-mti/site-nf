@@ -4,6 +4,7 @@ import Pastores from "@/components/Pastores";
 import Footer from "@/components/footer";
 import Header from "@components/Header";
 import Banner from "@/components/Banner";
+import Missao from "@/components/Missao";
 
 
 export default function Home() {
@@ -102,6 +103,9 @@ export default function Home() {
           <span className="font-bold">no Núcleo da Fé</span>
         </h1>
         <SlideCard dados={novidades} />
+      </section>
+      <section id="Missao" className=" bg-nf1-fundo text-nf1-branco">
+        <Missao />
       </section>
       <section id="Pastores" className="w-full px-4 py-2  bg-nf1-fundo  text-nf1-branco mt-1 mb-1 ">
         <Pastores />

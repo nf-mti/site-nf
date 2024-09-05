@@ -19,7 +19,7 @@ const Missao: React.FC = () => {
                     ease: 'power3.out',
                     scrollTrigger: {
                         trigger: '.title-fade-in-up',
-                        start: 'top 80%',
+                        start: 'top 90%',
                         toggleActions: 'play none none reset', // Reseta a animação quando o elemento sai da viewport
                     },
                 }
