@@ -19,7 +19,7 @@ const Missao: React.FC = () => {
                     ease: 'power3.out',
                     scrollTrigger: {
                         trigger: '.title-fade-in-up',
-                        start: 'top 80%',
+                        start: 'top 90%',
                         toggleActions: 'play none none reset', // Reseta a animação quando o elemento sai da viewport
                     },
                 }
@@ -28,7 +28,7 @@ const Missao: React.FC = () => {
     }, []);
 
     return (
-        <section className="bg-nf1-fundo text-nf1-branco py-32 px-10 flex justify-center items-center flex-col text-center w-screen h-[100vh] md:h-[75vh]">
+        <section className="bg-nf1-fundo text-nf1-branco border-t-4 py-16 px-10 flex justify-center items-center flex-col text-center w-screen ">
             <div className="title-fade-in-up">
                 <h2 className="text-4xl md:text-5xl font-bold italic mb-4">
                     <span >Nossa </span>

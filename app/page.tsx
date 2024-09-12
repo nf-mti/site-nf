@@ -3,8 +3,9 @@ import SlideCard from "@/components/SlideCard";
 import Pastores from "@/components/Pastores";
 import Footer from "@/components/footer";
 import Header from "@components/Header";
-import Banner from "@components/Banner";
-import Missao from "@components/Missao";
+import Banner from "@/components/Banner";
+import Missao from "@/components/Missao";
+
 
 export default function Home() {
   const campus = [
@@ -104,7 +105,6 @@ export default function Home() {
         </h1>
         <SlideCard dados={novidades} />
       </section>
-
       <section id="Missao" className=" bg-nf1-fundo text-nf1-branco">
         <Missao />
       </section>
