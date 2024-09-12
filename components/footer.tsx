@@ -10,10 +10,10 @@ export default function Footer() {
           <img
             src="img/nf-branco.png"
             alt="Logotipo"
-            className="h-14 justify-center"
+            className="h-36 w-46 -mx-32  sm:h-28 sm:w-36 sm:-mx-16 md:h-32 md:w-40 md:-mx-24  lg:h-36 lg:w-46 lg:-mx-32"
           />
         </div>
-        <div className="h-16 border-l border-gray-300 hidden md:block"></div>
+        <div className="h-40 border-l border-gray-300 hidden md:block"></div>
         <div className="flex flex-col sm:flex-row sm:px-20  sm:space-x-24 md:space-x-32">
           <div>
             <h3 className="sm:text-base text-2xl font-semibold font-title mt-8">CONECTE-SE</h3>
